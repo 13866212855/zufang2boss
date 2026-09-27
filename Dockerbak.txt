@@ -2,7 +2,7 @@ FROM node:20-bookworm
 
 WORKDIR /app
 
-# 复制依赖声明文件与 npm 配置文件（package-lock.json 会被 package*.json 通配一并复制）
+# 复制依赖声明文件与 npm 配置文件（package-lock.json 会被 package*.json 通配一并复制）1
 COPY package*.json .npmrc* ./
 
 # 安装依赖 —— 抗 TLS 抖动写法（Windows + Docker Desktop/WSL2 链路下并发 TLS 流偶发被破坏）
