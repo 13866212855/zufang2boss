@@ -1,0 +1,28 @@
+node_modules
+dist
+build
+.git
+.gitignore
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 运行时数据走卷挂载（D:\docker\zufang2boss\...），不要打进镜像
+data
+uploads
+
+# 部署/文档类文件与镜像无关
+skills
+*.bat
+*.ps1
+Dockerbak.txt
+*.sqlite
+

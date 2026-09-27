@@ -1,0 +1,6 @@
+{
+  "name": "房屋出租展示与访客意向分析",
+  "description": "专业的移动端房屋出租展示H5与房东访客意向智能分析系统，支持无痕行为埋点、意向度量化评分、智能AI/人工双模咨询与二维码一键推广。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
